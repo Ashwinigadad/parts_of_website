@@ -23,7 +23,7 @@ app.post('/login',(req,res)=>{
             return res.json("Success");
         }
         else{
-            return res.json("failed")
+            return res.json("failed");
         }
     })
 }
